@@ -5,7 +5,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "INSTALL": "npm i --registry=http://ued.zuoyebang.cc/npm/",
+    "INSTALL": "npm i --registry=http://xxx.xxxx.cc/npm/",
     "RESTART": "pm2 kill && git pull && npm run start:test",
     "prebuild": "rimraf output",
     "build": "nest build",

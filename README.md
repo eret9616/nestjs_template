@@ -1,35 +1,35 @@
-## 项目结构
+## hierarchy
 
 ```
-     |-- src ---- common      错误处理/日志/参数校验/数据库连接/redis服务
+     |-- src ---- common      
               |
-              |-- middleware  第三方中间件
+              |-- middleware  
               |
-              |-- router      路由地址
+              |-- router      
               |
-              |-- tasks       定时任务
+              |-- tasks       
               |
-              |-- static      存放静态文件
+              |-- static      
 ```
 
-## 安装依赖
+## dependency
 
 ```bash 
 $ npm run INSTALL
 ```
 
-## 脚本
+## script
 
 ```bash
-# 本地测试环境
+# dev
 $ npm run start:dev
 
-# 在测试机环境部署
+# test machine
 $ npm run start:test
 
-# 在测试及重新部署
+# redeploy in test machine
 $ npm run RESTART
 
-# 在线上生产环境部署
+# production
 $ npm run start:prod
 ```
