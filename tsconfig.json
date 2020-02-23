@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./output/nodeapp/zebra-ui",
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@common/*": [
+        "src/common/*"
+      ],
+      "@router/*": [
+        "src/router/*"
+      ],
+      "@module/*": [
+        "src/router/*"
+      ],
+      "@entity/*": [
+        "src/common/orm/entity/*"
+      ],
+      "@types/*": [
+        "types/*"
+      ]
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "output"
+  ]
+}
